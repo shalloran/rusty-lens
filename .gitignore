@@ -20,8 +20,10 @@ target
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# all csvs
+# timeline exports (often contain PII) — do not commit
 *.csv
+# test fixture is the exception so CI can run
+!tests/fixture_sample.csv
 
 # docs
 /docs/*
