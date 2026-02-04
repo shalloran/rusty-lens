@@ -1,0 +1,17 @@
+[package]
+name = "rusty-lens"
+version = "0.1.0"
+edition = "2021"
+description = "Rust TUI parser for Microsoft Defender device timeline CSV (DFIR)"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", default-features = false, features = ["std", "serde", "clock"] }
+clap = { version = "4", features = ["derive"] }
+crossterm = "0.28"
+csv = "1.3"
+ratatui = "0.28"
+serde = { version = "1.0", features = ["derive"] }
+unicode-width = "0.2"
