@@ -90,4 +90,4 @@ rusty-lens is a [ratatui](https://crates.io/crates/ratatui) app using [crossterm
 
 ## license
 
-MIT. See [LICENSE](LICENSE).
+GPLv3, see [LICENSE](LICENSE).

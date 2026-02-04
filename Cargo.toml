@@ -3,7 +3,7 @@ name = "rusty-lens"
 version = "0.1.0"
 edition = "2021"
 description = "Rust TUI parser for Microsoft Defender device timeline CSV (DFIR)"
-license = "MIT"
+license = "GPL-3.0-only"
 readme = "README.md"
 
 [dependencies]
